@@ -1,5 +1,7 @@
+package linkedlist1;
+
 public class LinkedList {
-    // Node head
+    // linkedlist1.Node head
     private Node head;
     // Kích thước
     private int size;
@@ -23,7 +25,7 @@ public class LinkedList {
 
     public void addLast(int data) {
         // Bước 1: Tạo node chứa dữ liệu mới
-//        Node tmp = new Node(data);
+//        linkedlist1.Node tmp = new linkedlist1.Node(data);
         // Bước 2: cần tìm ra node cuối cùng ??
         if (size == 0) {
             addFirst(data);
@@ -73,9 +75,9 @@ public class LinkedList {
 
     // Hiển thị
     public void display() {
-        // In từ head -> đến Node có next = null (Node cuối)
+        // In từ head -> đến linkedlist1.Node có next = null (linkedlist1.Node cuối)
         if (size == 0) {
-            System.out.println("LinkedList is empty!");
+            System.out.println("linkedlist1.LinkedList is empty!");
             return;
         }
         Node node = head;
