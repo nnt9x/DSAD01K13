@@ -58,7 +58,7 @@ public class LinkedList {
             // Chèn vào giữa ??
             // Làm thế nào để tìm tìm dc position -1 ??
             Node presviousPosition = head;
-            for (int i = 0; i < (position - 1) - 1; i++) {
+            for (int i = 0; i < (position - 1); i++) {
                 presviousPosition = presviousPosition.getNext();
             }
             // Đã có postion -1 -> lấy ra node ở postion

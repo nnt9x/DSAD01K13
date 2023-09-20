@@ -41,7 +41,6 @@ public class DoublyLinkedList {
         size++;
     }
 
-
     public void display() {
         if (size == 0) {
             System.out.println("DoublyLinkedList is empty!");
